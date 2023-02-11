@@ -10,4 +10,4 @@
 7. dfsdfsdf
 
 or
-1. sudo bash.sh
+1. sudo gitlab.sh
