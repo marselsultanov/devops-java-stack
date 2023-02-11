@@ -1,7 +1,7 @@
 
 
 # gitlab.marselsultanov.link
-1. sudo sh gitlab.sh
+1. sh gitlab.sh
 
 or
 1. sudo yum install -y ansible-core
