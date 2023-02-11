@@ -3,7 +3,7 @@
 # gitlab.marselsultanov.link
 1. sh gitlab.sh
 
-Inside bash script
+Inside bash script:
 1. sudo yum install -y ansible-core
 2. ansible-galaxy collection install ansible.posix && ansible-galaxy collection install community.general
 3. git clone https://github.com/marselsultanov/reclaim-oled-volume.git
