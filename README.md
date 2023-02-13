@@ -4,7 +4,7 @@
 ssh opc@gitlab.marselsultanov.link -i devops.key
 
 Bash script:
-1. curl www | bash
+1. curl gitlab.sh | bash
 
 Manually:
 1. sudo yum install -y ansible-core
@@ -16,13 +16,11 @@ Manually:
 8. dfsdfsdf
 
 # kubernetes.marselsultanov.link
-1. sh gitlab.sh
+1. curl kubernetes.sh | bash
 
 Or you can do it manually:
-1. sudo yum install -y ansible-core
-2. ansible-galaxy collection install ansible.posix && ansible-galaxy collection install community.general
-3. git clone https://github.com/marselsultanov/reclaim-oled-volume.git
-4. ansible-playbook reclaim-oled-volume/playbook.yml -i localhost, --connection=local
-5. git clone https://github.com/marselsultanov/gitlab.git
-6. ansible-playbook gitlab/playbook.yml -i localhost, -c=local
+1. sudo yum install kubectl
+2. sudo yum install helm
+5. git clone https://github.com/marselsultanov/kubernetes.git
+6. ansible-playbook gitlab/playbook.yml -i kubernetes.marselsultanov.link, --private-key devops.key
 7. dfsdfsdf
