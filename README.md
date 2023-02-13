@@ -1,5 +1,5 @@
 # gitlab.marselsultanov.link
-*Virtual machine with GitLab and support tools (ansible, kubectl, helm and etc...)*
+*Virtual machine with GitLab and DevOps Tools (ansible, kubectl, helm and etc...)*
 
 ssh opc@gitlab.marselsultanov.link -i devops.key
 
