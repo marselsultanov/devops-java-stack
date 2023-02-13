@@ -16,9 +16,14 @@ Manually:
 8. dfsdfsdf
 
 # kubernetes.marselsultanov.link
+*Virtual machine with GitLab and DevOps Tools (ansible, kubectl, helm and etc...)*
+
+ssh opc@gitlab.marselsultanov.link -i devops.key
+
+Bash script:
 1. curl kubernetes.sh | bash
 
-Or you can do it manually:
+Manually:
 1. sudo yum install kubectl
 2. sudo yum install helm
 5. git clone https://github.com/marselsultanov/kubernetes.git
