@@ -1,7 +1,7 @@
 # gitlab.marselsultanov.link
 *Virtual machine with GitLab and support tools (ansible, kubectl, helm...)*
 
-ssh opc@gitlab.marselsultanov.link -i gitlab.key
+ssh opc@gitlab.marselsultanov.link -i devops.key
 
 Bash script:
 1. curl www | bash
