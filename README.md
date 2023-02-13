@@ -1,4 +1,6 @@
 # gitlab.marselsultanov.link
+Virtual machine with GitLab and support tools (ansible, kubectl, helm...)
+
 ssh opc@gitlab.marselsultanov.link -i gitlab.key
 
 Bash script:
