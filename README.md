@@ -24,9 +24,9 @@ Bash script:
 1. curl kubernetes.sh | bash
 
 Manually:
-1. ansible-playbook reclaim-oled-volume/playbook.yml -i kubernetes, --private-key .ssh/devops.key --ssh-extra-args "-o StrictHostKeyChecking=false"
+1. ansible-playbook reclaim-oled-volume/playbook.yml -i kubernetes, --private-key .ssh/devops_rsa --ssh-extra-args "-o StrictHostKeyChecking=false"
 2. sudo yum install kubectl
 3. sudo yum install helm
 4. git clone https://github.com/marselsultanov/kubernetes.git
-5. ansible-playbook kubernetes/playbook.yml -i kubernetes, --private-key .ssh/devops.key --ssh-extra-args "-o StrictHostKeyChecking=false"
+5. ansible-playbook kubernetes/playbook.yml -i kubernetes, --private-key .ssh/devops_rsa --ssh-extra-args "-o StrictHostKeyChecking=false"
 6. dfsdfsdf
