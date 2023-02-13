@@ -1,5 +1,5 @@
 # gitlab.marselsultanov.link
-1. sh gitlab.sh
+1. curl www | bash
 
 Or you can do it manually:
 1. sudo yum install -y ansible-core
