@@ -24,8 +24,9 @@ Bash script:
 1. curl kubernetes.sh | bash
 
 Manually:
-1. sudo yum install kubectl
-2. sudo yum install helm
-5. git clone https://github.com/marselsultanov/kubernetes.git
-6. ansible-playbook gitlab/playbook.yml -i kubernetes.marselsultanov.link, --private-key devops.key
-7. dfsdfsdf
+1. ansible-playbook reclaim-oled-volume/playbook.yml -i kubernetes, --private-key devops.key
+2. sudo yum install kubectl
+3. sudo yum install helm
+4. git clone https://github.com/marselsultanov/kubernetes.git
+5. ansible-playbook gitlab/playbook.yml -i kubernetes.marselsultanov.link, --private-key devops.key
+6. dfsdfsdf
