@@ -16,7 +16,7 @@ Manually:
 8. dfsdfsdf
 
 # kubernetes.marselsultanov.link
-*Virtual machine with GitLab and DevOps Tools (ansible, kubectl, helm and etc...)*
+*Virtual machine with Kubernetes
 
 ssh opc@gitlab.marselsultanov.link -i devops.key
 
