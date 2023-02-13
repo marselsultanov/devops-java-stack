@@ -4,7 +4,7 @@
 ssh opc@gitlab.marselsultanov.link -i devops.key
 
 Bash script:
-1. curl gitlab.sh | bash
+1. curl https://raw.githubusercontent.com/marselsultanov/devops-java-stack/main/gitlab.sh | bash
 
 Manually:
 1. sudo yum install -y ansible-core
