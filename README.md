@@ -28,5 +28,5 @@ Manually:
 2. sudo yum install kubectl
 3. sudo yum install helm
 4. git clone https://github.com/marselsultanov/kubernetes.git
-5. ansible-playbook gitlab/playbook.yml -i kubernetes.marselsultanov.link, --private-key devops.key
+5. ansible-playbook gitlab/playbook.yml -i kubernetes, --private-key devops.key
 6. dfsdfsdf
