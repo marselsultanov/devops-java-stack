@@ -7,7 +7,8 @@ Bash script:
 1. curl https://raw.githubusercontent.com/marselsultanov/devops-java-stack/main/gitlab.sh | bash
 
 Manually:
-1. sudo yum install -y ansible-core
+1. sudo yum install -y git
+2. sudo yum install -y ansible-core
 3. ansible-galaxy collection install ansible.posix && ansible-galaxy collection install community.general
 4. git clone https://github.com/marselsultanov/reclaim-oled-volume.git
 5. ansible-playbook reclaim-oled-volume/playbook.yml -i localhost, --connection=local
